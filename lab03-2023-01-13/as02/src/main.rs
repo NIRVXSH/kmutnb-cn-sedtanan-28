@@ -15,5 +15,8 @@ mod tests {
    #[test]
    fn test_sum() {
        // Set the expected output 
+       let number =100;
+       let mut sum=(number/2)*(number+1);
+       assert_eq!(sum,5050)
    }
 }
